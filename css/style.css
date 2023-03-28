@@ -29,6 +29,13 @@ body {
     height: 100vh;
 }
 
+.containter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -41,7 +48,6 @@ body {
     gap: 20px;
     margin-top: 30px;
     position: relative;
-    
 }
 
 .container .img-equilibrium {
@@ -160,6 +166,7 @@ body {
     .attribution {
         display: flex;
         text-align: center;
+        text-justify: distribute;
         width: 100%;
     }
 }
